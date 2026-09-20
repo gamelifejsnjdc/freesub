@@ -6,7 +6,7 @@
     {
       "type": "vless",
       "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
-      "server": "207.148.99.230",
+      "server": "45.76.206.46",
       "server_port": 443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
@@ -20,7 +20,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/test/company/library?ed=2560",
+        "path": "/tags/go/groups?ed=2560",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
@@ -29,13 +29,13 @@
     {
       "type": "vmess",
       "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
-      "server": "dee2309db4se3g5sds35g4s3dg.oylfmxz.cn",
+      "server": "dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn",
       "server_port": 443,
       "uuid": "d90e4077-bc7e-414d-a650-70bf1baae4d6",
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "dee2309db4se3g5sds35g4s3dg.oylfmxz.cn",
+        "server_name": "dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn",
         "insecure": false
       },
       "transport": {
