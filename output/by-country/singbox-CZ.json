@@ -4,34 +4,28 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "153.76.185.86",
-      "server_port": 3090,
-      "uuid": "5bcba788-5e2d-457b-8bd2-67fa99e49e0f",
-      "transport": {
-        "type": "grpc",
-        "service_name": "vless"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
-      "server": "95.182.94.186",
+      "server": "104.17.148.22",
       "server_port": 443,
-      "uuid": "ec7a4183-3e7b-49c4-90dc-fe352e1b0ad0",
-      "flow": "xtls-rprx-vision",
+      "password": "Telegram_healer_config",
       "tls": {
         "enabled": true,
-        "server_name": "us04.mcloud.mov",
+        "server_name": "30f67sbq8jjwmt7gytfc14.0m68-qz3hqyfnlar6n3iq.workers.dev",
+        "insecure": true,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "fkZTYNydTBVO-1LSiTvDcyBMx-zBP5Am780jECmUgg0",
-          "short_id": ""
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tr/D0RNup7f2Tt0Tna3gVu5OvfMJYJjD?ed=2560",
+        "headers": {
+          "Host": "30f67sbq8jjwmt7gytfc14.0m68-qz3hqyfnlar6n3iq.workers.dev"
         }
       }
     },
@@ -40,16 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
