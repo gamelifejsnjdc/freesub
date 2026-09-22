@@ -4,32 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇪 比利时 (Belgium) 01 - xiaohe
-  server: 141.98.233.6
+- name: 🌐 其他地区 (Other) 01 - xiaohe
+  server: 104.21.21.151
   port: 443
   udp: true
   type: vless
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
   tls: true
-  servername: xi.tbv.ccwu.cc
+  servername: 4-m13.18f6A5d8-1d18-4649-9D3D-97C46E3aA3eC.KDNS.fr
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /ED3ZQPu7lqyeDGD58KabZ
     headers:
-      Host: xi.tbv.ccwu.cc
+      Host: 4-m13.18F6a5D8-1D18-4649-9D3d-97C46e3aa3ec.kDNs.Fr
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇧🇪 比利时 (Belgium) 01 - xiaohe
+  - 🌐 其他地区 (Other) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇪 比利时 (Belgium) 01 - xiaohe
+  - 🌐 其他地区 (Other) 01 - xiaohe
 rules:
 - MATCH,PROXIES

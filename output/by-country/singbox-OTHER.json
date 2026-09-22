@@ -5,22 +5,24 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 01 - xiaohe",
-      "server": "84.32.215.94",
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "104.21.21.151",
       "server_port": 443,
-      "uuid": "c5694dc5-39fd-4a92-8430-3837baa522a3",
-      "flow": "xtls-rprx-vision",
+      "uuid": "7700ff6d-cefb-4768-a806-ec4f63fe3b38",
       "tls": {
         "enabled": true,
-        "server_name": "lt.aether-runet.top",
+        "server_name": "4-m13.18f6A5d8-1d18-4649-9D3D-97C46E3aA3eC.KDNS.fr",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk",
-          "short_id": "4fa44664f6a566d3"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ED3ZQPu7lqyeDGD58KabZ",
+        "headers": {
+          "Host": "4-m13.18F6a5D8-1D18-4649-9D3d-97C46e3aa3ec.kDNs.Fr"
         }
       }
     },
@@ -29,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇹 立陶宛 (Lithuania) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇹 立陶宛 (Lithuania) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
