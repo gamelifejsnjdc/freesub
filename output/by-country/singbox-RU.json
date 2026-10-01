@@ -4,15 +4,24 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-      "server": "91.240.86.70",
-      "server_port": 22443,
-      "password": "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5",
+      "server": "139.28.168.201",
+      "server_port": 443,
+      "uuid": "a368752a-32fc-42f3-980a-6b049218b23f",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "itsallproxy.quattro-tech.ru",
-        "insecure": true
+        "server_name": "china.letsconnectpoint.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI",
+          "short_id": "3b74d85e"
+        }
       }
     },
     {
@@ -39,55 +48,13 @@
     {
       "type": "hysteria2",
       "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-      "server": "els.mangshe.xyz",
-      "server_port": 2060,
-      "password": "5d0a6445-a30d-4522-bb1f-94f1d3ad63be",
+      "server": "91.240.86.70",
+      "server_port": 22443,
+      "password": "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5",
       "tls": {
         "enabled": true,
-        "server_name": "els.mangshe.xyz",
+        "server_name": "91.240.86.70",
         "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-      "server": "139.28.168.201",
-      "server_port": 443,
-      "uuid": "a368752a-32fc-42f3-980a-6b049218b23f",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "china.letsconnectpoint.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI",
-          "short_id": "3b74d85e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-      "server": "188.225.76.197",
-      "server_port": 443,
-      "uuid": "5cb9410c-1b31-48dc-b33f-cacd93722ffd",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn-pl-exit.extazy.net",
-        "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
       }
     },
     {
@@ -97,9 +64,7 @@
         "auto",
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
       ]
     },
     {
@@ -108,9 +73,7 @@
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
