@@ -4,8 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
+      "server": "13.62.228.76",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
       "server": "5.157.10.148",
       "server_port": 443,
       "uuid": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
@@ -22,18 +30,6 @@
           "public_key": "x6p656szvu_3CKLsJ4NtkooRvdTVGx7IoPca_p58_jA",
           "short_id": "fb442438e2223836"
         }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
-      "server": "185.91.53.251",
-      "server_port": 8443,
-      "password": "ymk9eBP4Ams3-ncYCV4kDAezUzBfkR8x",
-      "tls": {
-        "enabled": true,
-        "server_name": "sw-one.quickgo.cc",
-        "insecure": false
       }
     },
     {
